@@ -1,0 +1,1 @@
+AI project for Microsoft Student Accelerator program
