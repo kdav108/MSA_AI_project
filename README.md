@@ -22,7 +22,10 @@ To run the code file successfully, ensure that the following libraries are insta
 Also ensure that the 'parkinsons.data' csv file is downloaded and is in the working directory
 
 ### Data Source
-The data was downlaoded from https://archive.ics.uci.edu/ml/datasets/parkinsons. There are 195 rows and 23 columns in the raw data set. The data is also slightly biased in that 23 of the 31 participating people tested for their vocal measurements had Parkinnson's Disease. There was the option of removing some of the data sets relating to people with parkinson's Disease, to lessen this biasedness, however, this would reduce the already small data set, so this option was not exercised. 
+The data was sourced from the following research paper: 'Exploiting Nonlinear Recurrence and Fractal Scaling Properties for Voice Disorder Detection', Little MA, McSharry PE, Roberts SJ, Costello DAE, Moroz IM. BioMedical Engineering OnLine 2007, 6:23 (26 June 2007). 
+It can be downloaded from https://archive.ics.uci.edu/ml/datasets/parkinsons
+
+There are 195 rows and 23 columns in the raw data set. The data is also slightly biased in that 23 of the 31 participating people tested for their vocal measurements had Parkinnson's Disease. There was the option of removing some of the data sets relating to people with parkinson's Disease, to lessen this biasedness, however, this would reduce the already small data set, so this option was not exercised. 
 
 ### How the model was trained
 Since the algorithm is about predicting 2 possible outcomes, True or False (i.e. it's a classification problem) and the data set is quite small (only 195 rows), I decided to use Gradient boosting to build my model. Not all variables from the raw data set were used in the final model (selection was based on omitting insignificant variables and repetetive testing) 
