@@ -1,7 +1,7 @@
 # Parkinnson's Detector
 
 ### Project idea 
-"Having" a passion for Software Engineering in the medical field, I chose to look at a project focusing on using Machine Learning to train a model to differentiate a healthy person from a person with Parkinson's Disease using several biomedical voice measurements of a given person. The specific model used was Gradient Boosting (more information in the 'How the model was trained' section below). The data source is also listed below. 
+''Havin'' a passion for Software Engineering in the medical field, I chose to look at a project focusing on using Machine Learning to train a model to differentiate a healthy person from a person with Parkinson's Disease using several biomedical voice measurements of a given person. The specific model used was Gradient Boosting (more information in the 'How the model was trained' section below). The data source is also listed below. 
 
 The aim is to help diagnose people with Parkinson's disease early so that treatments can be carried out early (and hence increasing the chance of success). This early diagnosis can be done through analysing the participitant's vocal frequencies. Due to these input being relatively ease to get, the model makes early diagnosis of Parkinson's disease easier. 
 
